@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+  #bio-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    height: 95vh;
+    padding: 20px;
+  }
+
+  .bio-description {
+    width: auto;
+    font-size: 1.5rem;
+    font-weight: normlal;
+  }
+
+  .bio-description h3 {
+    margin-top: 50px;
+  }
+
+  #projects-container {
+    background-color: grey;
+    height: 95vh;
+  }
+
+  #aboutme-container {
+    background-color: darkcyan;
+    height: 95vh;
+  }
+} */
