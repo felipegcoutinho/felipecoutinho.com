@@ -8,34 +8,16 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Extra small devices (phones, 600px and down) */
-/* @media only screen and (max-width: 600px) {
-  #bio-container {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color: white;
-    height: 95vh;
-    padding: 20px;
-  }
+/* @media (min-width: 576px) { ... }
 
-  .bio-description {
-    width: auto;
-    font-size: 1.5rem;
-    font-weight: normlal;
-  }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
 
-  .bio-description h3 {
-    margin-top: 50px;
-  }
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
 
-  #projects-container {
-    background-color: grey;
-    height: 95vh;
-  }
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
 
-  #aboutme-container {
-    background-color: darkcyan;
-    height: 95vh;
-  }
-} */
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1400px) { ... } */
