@@ -1,11 +1,11 @@
 import React from 'react';
+import style from './AboutMe.module.css'
 
 function Aboutme() {
   return (
-    <div id="aboutme-container">
-
-      <h1>About</h1>{' '}
-    </div>
+    <main className={style.container}>
+      <h1>About Me</h1>
+    </main>
   );
 }
 

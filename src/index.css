@@ -1,3 +1,7 @@
+:root {
+  --main-color: #6d12ff;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,19 +9,7 @@
 }
 
 body {
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
 }
 
-/* @media (min-width: 576px) { ... }
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) { ... }
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) { ... }
-
-// X-Large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) { ... }
-
-// XX-Large devices (larger desktops, 1400px and up)
-@media (min-width: 1400px) { ... } */

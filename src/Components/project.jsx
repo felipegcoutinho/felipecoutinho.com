@@ -1,10 +1,11 @@
 import React from 'react';
+import style from './Project.module.css'
 
 function Project() {
   return (
-    <div id="projects-container">
+    <main className={style.container}>
       <h1>Project</h1>
-    </div>
+    </main>
   );
 }
 
