@@ -1,10 +1,11 @@
 import React from 'react';
 import style from './Bio.module.css'
+import BioButtons from "./BioButtons";
 
 function Bio() {
   return (
     <main className={style.container}>
-      <header className={style.logo}>[LOGO]</header>
+      <header className={style.logo}>COUTINHO.</header>
       <div className={style.description}>
         <div>[FOTO]</div>
         <h1>Hi, :)</h1>
@@ -15,9 +16,11 @@ function Bio() {
           consequat tellus, sit amet luctus risus. Nulla consectetur sit amet
           leo in placerat.
         </p>
-        <div className={style.links}>[LINKS]</div>
+        <div className={style.links}>
+          <BioButtons />
+        </div>
       </div>
-    </main>
+    </main >
 
   );
 }

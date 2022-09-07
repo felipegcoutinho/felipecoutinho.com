@@ -1,6 +1,52 @@
-.container { 
-  display: grid;
-  grid-template-columns: repeat(12, 1fr); 
-  background-color: lightcyan;
-  height: 75vh;
+/* Mobile S - 320px */
+@media (min-width: 320px) {
+
+  .container {
+    background-color: lightpink;
+    width: 100%;
+  }
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 1fr;
+    padding: 30px;  
+    gap: 30px;
+  }
+
+  .cards {    
+    padding: 10px;
+    border-radius: 5px;
+    background-color: var(--main-color);
+    color: white;
+    height: 300px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    justify-content: center;
+
+  }
+}
+
+@media (min-width: 1024px) {
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+  }
+}
+
+@media (min-width: 1440px) {
+
+  .gridContainer {
+    display: grid;
+    grid-template-columns:repeat(3, 400px);
+    justify-content: center;
+  }
+
 }
