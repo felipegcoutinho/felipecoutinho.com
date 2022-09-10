@@ -14,11 +14,11 @@
   }
 
   .cards {    
-    padding: 10px;
-    border-radius: 5px;
+    padding: 20px;
+    border-radius: 4px;
     background-color: var(--main-color);
     color: white;
-    height: 300px;
+    height: 250px;  
   }
 }
 

@@ -5,13 +5,30 @@ function Project() {
   return (
     <main className={style.container}>
       <div className={style.gridContainer}>
-        <div className={style.cards}>Card 1</div>
+        <div className={style.cards}>
+          <header><h1>Titulo</h1></header>
+          <article><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></article>
+          <footer><h3>Tags</h3></footer>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         <div className={style.cards}>Card 2</div>
         <div className={style.cards}>Card 3</div>
-        {/* <div className={style.cards}>Card 4</div>
-        <div className={style.cards}>Card 5</div>
-        <div className={style.cards}>Card 6</div>
-        <div className={style.cards}>Card 7</div> */}
       </div>
     </main>
   );

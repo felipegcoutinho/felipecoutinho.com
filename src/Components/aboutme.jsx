@@ -5,9 +5,9 @@ function Aboutme() {
   return (
     <main className={style.container}>
       <div className={style.description}>
-
+        <h1>About Me</h1>
         <p>
-          <h1>About Me</h1>
+
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at
           neque in tellus fringilla viverra vel quis nibh. Sed ac elit et mauris
           lacinia dictum. In cursus neque non semper aliquet. Phasellus eget
