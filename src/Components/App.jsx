@@ -1,14 +1,14 @@
 import React from 'react';
 import Bio from './bio.jsx';
 import Project from './project.jsx';
-import Aboutme from './aboutme.jsx';
+import About from './About.jsx';
 
 function App() {
   return (
     <div>
       <Bio />
       <Project />
-      <Aboutme />
+      <About />
     </div>
   );
 }

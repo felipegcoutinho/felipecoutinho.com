@@ -1,7 +1,7 @@
 import React from 'react';
 import style from './About.module.css';
 
-function Aboutme() {
+function About() {
   return (
     <main className={style.container}>
       <div className={style.description}>
@@ -18,4 +18,4 @@ function Aboutme() {
   );
 }
 
-export default Aboutme;
+export default About;
