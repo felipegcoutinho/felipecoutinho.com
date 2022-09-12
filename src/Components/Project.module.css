@@ -1,39 +1,35 @@
 /* Mobile S - 320px */
 @media (min-width: 320px) {
-
   .container {
-    background-color: lightpink;
+    background-color: #3b02ff;
     width: 100%;
   }
 
   .gridContainer {
     display: grid;
     grid-template-columns: 1fr;
-    padding: 30px;  
+    padding: 30px;
     gap: 30px;
   }
 
-  .cards {    
+  .cards {
     padding: 20px;
     border-radius: 4px;
     background-color: var(--main-color);
     color: white;
-    height: 250px;  
+    height: 250px;
   }
 }
 
 @media (min-width: 768px) {
-
   .gridContainer {
     display: grid;
     grid-template-columns: 300px 300px;
     justify-content: center;
-
   }
 }
 
 @media (min-width: 1024px) {
-
   .gridContainer {
     display: grid;
     grid-template-columns: repeat(2, 400px);
@@ -42,11 +38,9 @@
 }
 
 @media (min-width: 1440px) {
-
   .gridContainer {
     display: grid;
-    grid-template-columns:repeat(3, 400px);
+    grid-template-columns: repeat(3, 400px);
     justify-content: center;
   }
-
 }

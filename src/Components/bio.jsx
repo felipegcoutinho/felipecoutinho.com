@@ -1,13 +1,15 @@
 import React from 'react';
-import style from './Bio.module.css'
-import BioButtons from "./BioButtons";
+import Photo from '../Components/Photo';
+import style from './Bio.module.css';
+import BioButtons from './BioButtons';
+import Header from './Header';
 
 function Bio() {
   return (
     <main className={style.container}>
-      <header className={style.logo}>COUTINHO.</header>
+      <Header />
       <div className={style.description}>
-        <div>[FOTO]</div>
+        <Photo />
         <h1>Hi, :)</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at
@@ -16,12 +18,9 @@ function Bio() {
           consequat tellus, sit amet luctus risus. Nulla consectetur sit amet
           leo in placerat.
         </p>
-        <div className={style.links}>
-          <BioButtons />
-        </div>
+        <BioButtons />
       </div>
-    </main >
-
+    </main>
   );
 }
 
