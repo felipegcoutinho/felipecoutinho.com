@@ -20,15 +20,11 @@ function Project() {
 
 
 
-
-
-
-
-
-
-
         <div className={style.cards}>Card 2</div>
         <div className={style.cards}>Card 3</div>
+        <div className={style.cards}>Card 4</div>
+
+
       </div>
     </main>
   );

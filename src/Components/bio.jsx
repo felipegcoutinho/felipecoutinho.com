@@ -10,7 +10,8 @@ function Bio() {
       <Header />
       <div className={style.description}>
         <Photo />
-        <h1>Hi, :)</h1>
+        <h1>Hi, I'm Felipe.</h1>
+        <p>Web Developer  </p>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at
           neque in tellus fringilla viverra vel quis nibh. Sed ac elit et mauris

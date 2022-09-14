@@ -13,6 +13,7 @@
     padding: 0 10px;
     color: black;
     font-weight: bold;
+    font-size: 1.2rem;
   }
 
   .description {
@@ -23,6 +24,12 @@
     color: #333;
     text-align: center;
     font-size: 1.1rem;
+  }
+
+  .description h1 {
+    font-family: inter, sans-serif;
+    font-weight: 900;
+
   }
 
   .links {

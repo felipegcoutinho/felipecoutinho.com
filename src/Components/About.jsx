@@ -5,7 +5,6 @@ function About() {
   return (
     <main className={style.container}>
       <div className={style.description}>
-        <h1>About Me</h1>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec at
           neque in tellus fringilla viverra vel quis nibh. Sed ac elit et mauris
