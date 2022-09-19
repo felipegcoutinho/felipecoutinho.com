@@ -1,7 +1,7 @@
 /* Mobile S - 320px */
 @media (min-width: 320px) {
   .container {
-    background-color: #3b02ff;
+    background-color: #0c0034;
     width: 100%;
   }
 
@@ -11,14 +11,7 @@
     padding: 30px;
     gap: 30px;
   }
-
-  .cards {
-    padding: 20px;
-    border-radius: 4px;
-    background-color: var(--main-color);
-    color: white;
-    height: 250px;
-  }
+  
 }
 
 @media (min-width: 768px) {

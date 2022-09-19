@@ -1,0 +1,21 @@
+a {
+  text-decoration: none;
+}
+
+.cards {
+  padding: 20px;
+  border-radius: 4px;
+  background-color: var(--main-color);
+  color: white;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cards footer {
+  background-color: #320877;
+  padding: 5px;
+  border-radius: 4px;
+
+}
