@@ -6,16 +6,24 @@ a {
   padding: 20px;
   border-radius: 4px;
   background-color: var(--main-color);
-  color: white;
   height: 250px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+.cards header {
+  font-size: large;
+  text-transform: uppercase;
+}
+
+.cards summary {
+  font-size: 1.3rem;
+  color: black;
+}
+
 .cards footer {
-  background-color: #320877;
+  font-size: 0.9rem;
   padding: 5px;
   border-radius: 4px;
-
 }
