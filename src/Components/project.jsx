@@ -7,14 +7,29 @@ function Project() {
     <main className={style.container}>
       <div className={style.gridContainer}>
 
-        <div className={stylec.cards}>
-          <header><h1><a href="#">Portifólio</a></h1></header>
+        <div className={`${stylec.cards} ${stylec.blue}`}>
+          < header > <h1><a href="#">Portifólio</a></h1></header>
           <summary><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></summary>
           <footer><h3>#JS #HTML #CSS </h3></footer>
         </div>
 
-      </div>
-    </main>
+        <div className={`${stylec.cards} ${stylec.yellow}`}>
+          < header > <h1><a href="#">Portifólio</a></h1></header>
+          <summary><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></summary>
+          <footer><h3>#JS #HTML #CSS </h3></footer>
+        </div>
+
+        <div className={`${stylec.cards} ${stylec.x}`}>
+          < header > <h1><a href="#">Portifólio</a></h1></header>
+          <summary><h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h3></summary>
+          <footer><h3>#JS #HTML #CSS </h3></footer>
+        </div>
+
+
+
+
+      </div >
+    </main >
   );
 }
 

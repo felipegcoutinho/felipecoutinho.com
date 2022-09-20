@@ -1,15 +1,36 @@
 a {
   text-decoration: none;
+  color: white;
 }
 
 .cards {
   padding: 20px;
-  border-radius: 4px;
-  background-color: var(--main-color);
-  height: 250px;
+  border-radius: 20px;
+  height: 300px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+.blue {
+  background-color: #FBAB7E;
+  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+  box-shadow: 0px 20px 50px 6px #FBAB7E;
+  color: darkslategray;
+}
+
+.yellow {
+  background-color: #fbbc1d;
+  background-image: linear-gradient(62deg, #fbbc1d 0%, #fbce5a 100%);
+  box-shadow: 0px 20px 50px 6px #fbbc1d;
+  color: brown;
+}
+
+.x {
+  background-color:#2d42cb;
+  background-image: linear-gradient(62deg, #2d42cb 0%, #4b61ec 100%);  
+  box-shadow: 0px 20px 50px 6px #2d42cb;
+  color: wheat;
 }
 
 .cards header {
@@ -19,7 +40,6 @@ a {
 
 .cards summary {
   font-size: 1.3rem;
-  color: black;
 }
 
 .cards footer {
