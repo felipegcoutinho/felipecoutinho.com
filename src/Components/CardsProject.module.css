@@ -1,36 +1,38 @@
 a {
   text-decoration: none;
-  color: white;
+  color: #FFC9C9;
 }
 
 .cards {
   padding: 20px;
-  border-radius: 20px;
-  height: 300px;
+  border-radius: 30px;
+  height: 350px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  background-image: linear-gradient(200deg, #4E4DDC  0% , #240046 60% 90%, #4E4DDC 100%);
+  box-shadow: 0px 50px 80px 0px #7282E9;
+  animation: cards 5s infinite;
 }
 
-.blue {
-  background-color: #FBAB7E;
-  background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
-  box-shadow: 0px 20px 50px 6px #FBAB7E;
-  color: darkslategray;
+.cards:hover {
+  animation: cardshover 0.5s 1 forwards;
+
 }
 
-.yellow {
-  background-color: #fbbc1d;
-  background-image: linear-gradient(62deg, #fbbc1d 0%, #fbce5a 100%);
-  box-shadow: 0px 20px 50px 6px #fbbc1d;
-  color: brown;
-}
+/* @keyframes cards {
+  0%   {background:#e49e48 ;}
+  50%  {background: #edb674 ;}
+  100% {background:#e49e48 ;}
+} */
 
-.x {
-  background-color:#2d42cb;
-  background-image: linear-gradient(62deg, #2d42cb 0%, #4b61ec 100%);  
-  box-shadow: 0px 20px 50px 6px #2d42cb;
-  color: wheat;
+@keyframes cardshover {
+  0%{    
+    background:#240046 ;transform: scale(1);
+  }
+  100%{
+    background:#240046 ;transform: scale(1.1);
+  }
 }
 
 .cards header {
@@ -39,11 +41,13 @@ a {
 }
 
 .cards summary {
-  font-size: 1.3rem;
+  font-size: 1.9rem;
+  color: #ffa659;
 }
 
 .cards footer {
-  font-size: 0.9rem;
+  font-size: 1rem;
   padding: 5px;
-  border-radius: 4px;
+  border-radius: 10px;
+  color: #FFC9C9;
 }
