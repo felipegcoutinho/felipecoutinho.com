@@ -1,6 +1,6 @@
 @media (min-width: 320px) {
   button {
-    padding: 15px 40px;
+    padding: 15px 30px;
     border-radius: 15px;
     border: none;
     margin-top: 5px;
@@ -10,6 +10,7 @@
     transition: transform 0.7s, background-color 0.5s;
     color: white;
     cursor: pointer;
+    font-weight: bold;
   }
 
   button:hover {
@@ -19,7 +20,7 @@
 
 @media (min-width: 768px) {
   button {
-    width: 150px;
+    width: 160px;
     margin-left: 5px;
   }
 }

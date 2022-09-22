@@ -23,14 +23,12 @@
     padding: 20px;
     color: #333;
     text-align: center;
-    font-size: 1.1rem;
-   
+    font-size: 1.1rem;   
   }
 
   .description h1 {
     font-family: inter, sans-serif;
     font-weight: 900;
-
   }
 
   .links {

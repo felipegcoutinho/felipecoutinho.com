@@ -8,6 +8,7 @@ export default function BioButtons() {
         social1="Github"
         social2="Linkedin"
         social3="Resume"
+        social4="Stackblitz"
       />
     </div>
   )
@@ -20,6 +21,7 @@ function Buttonsprops(props) {
       <a href="#1"><button>{props.social1}</button></a>
       <a href="#2"><button>{props.social2}</button></a>
       <a href="#3"><button>{props.social3}</button></a>
+      <a href="#4"><button>{props.social4}</button></a>
     </div >
   )
 
