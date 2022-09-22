@@ -1,37 +1,37 @@
 a {
-  text-decoration: none;
   color: #465C7A;
+  text-decoration: none;
 }
 
 .cards {
-  padding: 20px;
+  background: linear-gradient(45deg, #FCBB6D 0% , #FCBB6D 100%);
   border-radius: 30px;
-  height: 350px;
+  box-shadow: 0px 50px 80px 0px #FCBB6D;
   display: flex;
   flex-direction: column;
+  height: 350px;
   justify-content: space-between;
-  background: linear-gradient(45deg, #FCBB6D 0% , #FCBB6D 100%);
-  box-shadow: 0px 50px 80px 0px #FCBB6D;
+  padding: 20px;
   transition: transform 0.7s, box-shadow 0.7s;
 }
 
 .cards:hover {
   background:#D9727F ;
-  transform: scale(1.10);
   box-shadow: 0px 50px 80px 0px #D9727F;
+  transform: scale(1.10);
 }
 
 @keyframes cardshover {
   0%{    
     background:#D9727F ;
-    transform: scale(1);
     box-shadow: 0px 50px 80px 0px #D9727F;
+    transform: scale(1);
 
   }
   100%{
     background:#D9727F ;
-    transform: scale(1.1);
     box-shadow: 0px 50px 80px 0px #D9727F;
+    transform: scale(1.1);
 
   }
 }
@@ -46,8 +46,8 @@ a {
 }
 
 .cards footer {
-  font-size: 1rem;
-  padding: 5px;
   border-radius: 10px;
   color: #465C7A;
+  font-size: 1rem;
+  padding: 5px;
 }

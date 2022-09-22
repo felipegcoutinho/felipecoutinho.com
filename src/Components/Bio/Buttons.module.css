@@ -1,16 +1,16 @@
 @media (min-width: 320px) {
   button {
-    padding: 15px 30px;
-    border-radius: 15px;
-    border: none;
-    margin-top: 5px;
-    font-size: 1.2rem;
-    width: 100%;
     background-color: #685D79;
-    transition: transform 0.7s, background-color 0.5s;
+    border: none;
+    border-radius: 15px;
     color: white;
     cursor: pointer;
+    font-size: 1.2rem;
     font-weight: bold;
+    margin-top: 5px;
+    padding: 15px 30px;
+    transition: transform 0.7s, background-color 0.5s;
+    width: 100%;
   }
 
   button:hover {
@@ -20,7 +20,7 @@
 
 @media (min-width: 768px) {
   button {
-    width: 160px;
     margin-left: 5px;
+    width: 160px;
   }
 }

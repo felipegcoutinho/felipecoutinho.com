@@ -3,13 +3,13 @@
 }
 
 * {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
 }
 
 body {
+  background-color: white;
   font-family: inter, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
- background-color: white;
 }
 
