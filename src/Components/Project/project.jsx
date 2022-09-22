@@ -1,6 +1,6 @@
 import React from 'react';
 import style from './Project.module.css'
-import stylec from "./CardsProject.module.css";
+import stylecard from "./CardsProject.module.css";
 
 function Project() {
   return (
@@ -34,7 +34,7 @@ function Project() {
 
 function Card(props) {
   return (
-    <div className={`${stylec.cards}`}>
+    <div className={`${stylecard.cards}`}>
       <header><h1><a href={props.url}>{props.header}</a></h1></header>
       <summary><h3>{props.desc}</h3></summary>
       <footer><h3>{props.tags}</h3></footer>

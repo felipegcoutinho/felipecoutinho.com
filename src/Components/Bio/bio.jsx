@@ -1,7 +1,7 @@
 import React from 'react';
-import Photo from '../Components/Photo';
+import Photo from './Photo';
 import style from './Bio.module.css';
-import BioButtons from './BioButtons';
+import Buttons from './Buttons';
 import Header from './Header';
 
 function Bio() {
@@ -19,7 +19,7 @@ function Bio() {
           consequat tellus, sit amet luctus risus. Nulla consectetur sit amet
           leo in placerat.
         </p>
-        <BioButtons />
+        <Buttons />
       </div>
     </main>
   );

@@ -1,7 +1,7 @@
 import React from 'react';
-import Bio from './bio.jsx';
-import Project from './project.jsx';
-import About from './About.jsx';
+import Bio from './Bio/bio.jsx';
+import Project from './Project/project.jsx';
+import About from './About/About.jsx';
 
 function App() {
   return (

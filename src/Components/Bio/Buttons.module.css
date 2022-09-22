@@ -1,0 +1,25 @@
+@media (min-width: 320px) {
+  button {
+    padding: 15px 40px;
+    border-radius: 15px;
+    border: none;
+    margin-top: 5px;
+    font-size: 1.2rem;
+    width: 100%;
+    background-color: #685D79;
+    transition: transform 0.7s, background-color 0.5s;
+    color: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background-color: #2a3648;
+  }
+}
+
+@media (min-width: 768px) {
+  button {
+    width: 150px;
+    margin-left: 5px;
+  }
+}
