@@ -5,25 +5,25 @@
   }
 
   .logo {
-    display: grid;
-    justify-content: space-between;
     align-items: center;
+    color: black;
+    display: grid;
+    font-size: 1.2rem;
+    font-weight: bold;
     grid-column: 1/ -1;
     height: 50px;
+    justify-content: space-between;
     padding: 0 10px;
-    color: black;
-    font-weight: bold;
-    font-size: 1.2rem;
   }
 
   .description {
+    color: #333;
     display: grid;
+    font-size: 1.1rem;
     grid-column: 1 /-1;
     height: 83vh;
     padding: 20px;
-    color: #333;
     text-align: center;
-    font-size: 1.1rem;
   }
 
   .description h1 {
@@ -61,8 +61,8 @@
 @media (min-width: 1024px) {
   .description {
     font-size: 1.4rem;
-    padding: 0 80px;
     grid-column: 3 / 11;
+    padding: 0 80px;
   }
 
   .links {
