@@ -1,4 +1,9 @@
 @media (min-width: 320px) {
+
+  .buttoncontainer{
+    margin-top: 20px;
+  }
+
   button {
     background-color: #685D79;
     border: none;
@@ -8,7 +13,7 @@
     font-size: 1.2rem;
     font-weight: bold;
     margin-top: 5px;
-    padding: 15px 30px;
+    padding: 20px;
     transition: transform 0.7s, background-color 0.5s;
     width: 100%;
   }
@@ -19,6 +24,13 @@
 }
 
 @media (min-width: 768px) {
+  button {
+    margin-left: 5px;
+    width: 145px;
+  }
+}
+
+@media (min-width: 1024px) {
   button {
     margin-left: 5px;
     width: 160px;

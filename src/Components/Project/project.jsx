@@ -24,6 +24,12 @@ function Project() {
           desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
           tags="JS HTML CSS"
         />
+        <Card
+          url="#"
+          header="Portifólio"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          tags="JS HTML CSS"
+        />
 
       </div >
     </main >

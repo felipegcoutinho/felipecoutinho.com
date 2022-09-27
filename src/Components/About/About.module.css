@@ -5,15 +5,16 @@
 
 @media (min-width: 320px) {
   .description {
+    align-items: center;
     color: #333;
     display: grid;
     font-size: 1.1rem;
     grid-column: 1 /-1;
-    height: 65vh;
+    height: 60vh;
     justify-content: center;
     padding: 20px;
-    text-align: center;
-  }
+  }    
+  
 }
 
 @media (min-width: 425px) {
@@ -44,7 +45,7 @@
 
 @media (min-width: 2560px) {
   .description {
-    font-size: 2.5rem;
+    font-size: 2.1rem;
     grid-column: 4 / 10;
   }
 }

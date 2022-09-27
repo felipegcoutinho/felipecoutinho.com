@@ -5,11 +5,12 @@ export default function BioButtons() {
   return (
     <div>
       <Buttonsprops
-        social1="Github"
-        social2="Linkedin"
-        social3="Resume"
-        social4="Stackblitz"
+        social1="Github" url1="###1"
+        social2="Linkedin" url2="###2"
+        social3="Resumé" url3="###3"
+        social4="Stackblitz" url4="###4"
       />
+
     </div>
   )
 }
@@ -17,11 +18,11 @@ export default function BioButtons() {
 
 function Buttonsprops(props) {
   return (
-    <div>
-      <a href="#1"><button>{props.social1}</button></a>
-      <a href="#2"><button>{props.social2}</button></a>
-      <a href="#3"><button>{props.social3}</button></a>
-      <a href="#4"><button>{props.social4}</button></a>
+    <div className={style.buttoncontainer}>
+      <a href={props.url1}><button><i class="fa-brands fa-github-alt"></i> {props.social1} </button></a>
+      <a href={props.url2}><button><i class="fa-brands fa-linkedin"></i> {props.social2} </button></a>
+      <a href={props.url3}><button><i class="fa-regular fa-file-lines"></i> {props.social3}</button></a>
+      <a href={props.url4}><button><i class="fa-solid fa-bolt"></i> {props.social4}</button></a>
     </div >
   )
 
