@@ -11,6 +11,7 @@ a {
   flex-direction: column;
   height: 350px;
   justify-content: space-between;
+  max-width: 100%;
   padding: 20px;
   transition: transform 0.7s, box-shadow 0.7s;
 }
@@ -49,5 +50,11 @@ a {
   border-radius: 10px;
   color: #465C7A;
   font-size: 1rem;
-  padding: 5px;
+}
+
+.tags {
+  border: 2px solid #465C7A;
+  border-radius: 8px;
+  margin-left: 3px;
+  padding: 5px 20px;
 }

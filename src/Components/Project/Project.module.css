@@ -1,9 +1,7 @@
 /* Mobile S - 320px */
 @media (min-width: 320px) {
   .container {
-    /* background-color: #fff8ec; */
-    /* background-image: url(./patternpad.svg);
-    background-size: 50%; Do not repeat the image */
+    display: grid;
     width: 100%;
   }
 
