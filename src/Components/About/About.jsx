@@ -16,7 +16,7 @@ function About() {
           When I'm not in front of a computer screen, I'm probably snowboarding, cruising around on my penny board, or crossing off another item on my bucket list.
         </p>
 
-        <Stack />
+        {/* <Stack /> */}
 
       </div>
     </main>
