@@ -1,11 +1,10 @@
 import React from "react";
 import style from "./Project.module.css";
-import stylecard from "./CardsProject.module.css";
 
 function Project() {
   return (
     <main className={style.container}>
-      <div className={style.gridContainer}>
+      <div className={style.content}>
         <Card
           url="#"
           header="Portifólio"
@@ -49,7 +48,7 @@ function Project() {
 
 function Card(props) {
   return (
-    <div className={stylecard.cards}>
+    <div className={style.cards}>
       <header>
         <h1>
           <a href={props.url}>{props.header}</a>
@@ -59,12 +58,12 @@ function Card(props) {
         <h3>{props.desc}</h3>
       </summary>
       <footer>
-        <h4>
-          <span className={stylecard.tags}>{props.tag1}</span>
-          <span className={stylecard.tags}>{props.tag2}</span>
-          <span className={stylecard.tags}>{props.tag3}</span>
-          <span className={stylecard.tags}>{props.tag4}</span>
-        </h4>
+        <h5>
+          <span className={style.tags}>{props.tag1}</span>
+          <span className={style.tags}>{props.tag2}</span>
+          <span className={style.tags}>{props.tag3}</span>
+          <span className={style.tags}>{props.tag4}</span>
+        </h5>
       </footer>
     </div>
   );

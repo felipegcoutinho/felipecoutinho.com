@@ -1,0 +1,7 @@
+@media (min-width: 320px) {
+  .container {
+    display: grid;
+    grid-auto-columns: 1fr;
+    grid-template-columns: repeat(16, 1fr);
+}
+}

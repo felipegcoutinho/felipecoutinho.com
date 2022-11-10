@@ -1,22 +1,40 @@
 @media (min-width: 320px) {
   .container {
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
+    background-color: #c3ffeb;
+    grid-area: 2 / 1 / 10 / 17;
   }
 
-  .header {
-    align-items: center;
-    color: black;
-    display: grid;
+  .content {
+    color: var(--text-main);
+    font-size: 1.1rem;
+    padding: 20px;
+    text-align: center;
+  }
+
+  .name,
+  .job {
+    margin-bottom: 10px;
+  }
+}
+
+@media (min-width: 425px) {
+  .content {
     font-size: 1.2rem;
-    font-weight: bold;
-    grid-area: header;
-    grid-template-areas: "header header";
-    height: 50px;
-    justify-content: space-between;
-    padding: 0 10px
-
   }
+  .name,
+  .job {
+    margin: 15px 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .content {
+    font-size: 1.3rem;
+    padding: 0 80px;
+  }
+}
+
+/* 
 
   .description {
     color: #333;
@@ -40,23 +58,7 @@
   }  
 }
 
-@media (min-width: 425px) {
-  .description {
-    font-size: 1.2rem;
-  }
-}
 
-@media (min-width: 768px) {
-  .logo {
-    justify-content: left;
-    padding: 0 20px;
-  }
-
-  .description {
-    font-size: 1.3rem;
-    padding: 0 80px;
-  }
-}
 
 @media (min-width: 1024px) {
   .description {
@@ -78,4 +80,4 @@
     font-size: 2.1rem;
     grid-column: 4 / 10;
   }
-}
+} */

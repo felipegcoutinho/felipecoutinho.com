@@ -1,50 +1,46 @@
-.container {
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
-}
-
 @media (min-width: 320px) {
-  .description {
+  .container {
+    grid-area: 14 / 1 / 15 / 17;
+    margin-bottom: 20px;
+  }
+  
+  .content {
     align-items: center;
     color: #333;
-    display: grid;
     font-size: 1.1rem;
-    grid-column: 1 /-1;
-    height: 60vh;
     justify-content: center;
-    padding: 20px;
-  }    
-  
+    padding: 0 20px;
+  }
 }
 
 @media (min-width: 425px) {
-  .description {
+  .content {
     font-size: 1.2rem;
   }
 }
 
 @media (min-width: 768px) {
-  .description {
+  .content {
     font-size: 1.4rem;
   }
 }
 
 @media (min-width: 1024px) {
-  .description {
+  .content {
     font-size: 1.4rem;
     grid-column: 3 / 11;
   }
 }
 
 @media (min-width: 1440px) {
-  .description {
+  .content {
     font-size: 1.3rem;
     grid-column: 4 / 10;
   }
 }
 
 @media (min-width: 2560px) {
-  .description {
+  .content {
     font-size: 2.1rem;
     grid-column: 4 / 10;
   }

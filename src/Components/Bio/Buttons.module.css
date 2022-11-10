@@ -1,11 +1,11 @@
 @media (min-width: 320px) {
-
-  .buttoncontainer{
+  .buttoncontainer {
     margin-top: 20px;
+    margin-bottom: 20px;
   }
 
   button {
-    background-color: #685D79;
+    background-color: #685d79;
     border: none;
     border-radius: 15px;
     color: white;
@@ -26,7 +26,7 @@
 @media (min-width: 768px) {
   button {
     margin-left: 5px;
-    width: 145px;
+    width: fit-content;
   }
 }
 
