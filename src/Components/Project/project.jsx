@@ -1,10 +1,10 @@
 import React from "react";
-import style from "./Project.module.css";
+import * as styled from "./project.styled";
 
 function Project() {
   return (
-    <main className={style.container}>
-      <div className={style.content}>
+    <styled.Container>
+      <styled.Content>
         <Card
           url="#"
           header="Portifólio"
@@ -41,31 +41,31 @@ function Project() {
           tag3="JS"
           tag4="React"
         />
-      </div>
-    </main>
+      </styled.Content>
+    </styled.Container>
   );
 }
 
 function Card(props) {
   return (
-    <div className={style.cards}>
-      <header>
+    <styled.Cards>
+      <styled.Header>
         <h1>
-          <a href={props.url}>{props.header}</a>
+          <styled.Link href={props.url}>{props.header}</styled.Link>
         </h1>
-      </header>
-      <summary>
+      </styled.Header>
+      <styled.Summary>
         <h3>{props.desc}</h3>
-      </summary>
-      <footer>
+      </styled.Summary>
+      <styled.Footer>
         <h5>
-          <span className={style.tags}>{props.tag1}</span>
-          <span className={style.tags}>{props.tag2}</span>
-          <span className={style.tags}>{props.tag3}</span>
-          <span className={style.tags}>{props.tag4}</span>
+          <styled.Tags>{props.tag1}</styled.Tags>
+          <styled.Tags>{props.tag2}</styled.Tags>
+          <styled.Tags>{props.tag3}</styled.Tags>
+          <styled.Tags>{props.tag4}</styled.Tags>
         </h5>
-      </footer>
-    </div>
+      </styled.Footer>
+    </styled.Cards>
   );
 }
 

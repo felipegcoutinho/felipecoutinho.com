@@ -1,15 +1,14 @@
 @media (min-width: 320px) {
   .container {
     grid-area: 1 / 1 / 1 / 17;
-}
+  }
   .content {
     align-items: center;
-    background-color: aliceblue;
     color: black;
     display: flex;
-    font-size: 1.2rem;
+    font-size: 0.8rem;
     font-weight: bold;
     height: 60px;
     justify-content: space-around;
-}
+  }
 }

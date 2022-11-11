@@ -17,12 +17,11 @@ const size = {
 };
 
 export const device = {
-  mobileS: `(min-width: ${size.mobileS})`,
-  mobileM: `(min-width: ${size.mobileM})`,
-  mobileL: `(min-width: ${size.mobileL})`,
-  tablet: `(min-width: ${size.tablet})`,
-  laptop: `(min-width: ${size.laptop})`,
-  laptopL: `(min-width: ${size.laptopL})`,
-  desktop: `(min-width: ${size.desktop})`,
-  desktopL: `(min-width: ${size.desktop})`
+  mobileS_320px: `(min-width: ${size.mobileS})`,
+  mobileM_375px: `(min-width: ${size.mobileM})`,
+  mobileL_425px: `(min-width: ${size.mobileL})`,
+  tablet_768px: `(min-width: ${size.tablet})`,
+  laptop_1024px: `(min-width: ${size.laptop})`,
+  laptopL_1440px: `(min-width: ${size.laptopL})`,
+  desktop_2560px: `(min-width: ${size.desktop})`,
 };
