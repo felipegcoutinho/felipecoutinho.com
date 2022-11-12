@@ -1,10 +1,26 @@
-import React from "react";
+import React, {useEffect, useState} from "react";
 import * as styled from "./project.styled";
 
 function Project() {
+  const [githubData, setGithubData] = useState([]);
+  const [githubUser] = useState("felipegcoutinho");
+
+  useEffect(() => {
+    const fetchData = async () => {
+      const response = await fetch(`https://api.github.com/users/${githubUser}/repos?per_page=4&sort=stargazers`);
+      const data = await response.json();
+      setGithubData(data);
+    };
+    fetchData();
+  }, []);
+
+  console.log(githubData);
+
   return (
     <styled.Container>
       <styled.Content>
+        {githubData.length}
+
         <Card
           url="#"
           header="Portifólio"
