@@ -2,7 +2,7 @@ import React, {useEffect, useState} from "react";
 import * as styled from "./project.styled";
 
 function Project() {
-  const [githubData, setGithubData] = useState([]);
+  const [githubData, setGithubData] = useState();
   const [githubUser] = useState("felipegcoutinho");
 
   useEffect(() => {
@@ -14,55 +14,72 @@ function Project() {
     fetchData();
   }, []);
 
-  console.log(githubData);
-
   return (
     <styled.Container>
       <styled.Content>
-        {githubData.length}
+        <Card
+          url="#"
+          header="Portifólio"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          tag1="HTML"
+          tag2="CSS"
+          tag3="JS"
+          tag4="React"
+        />
+        <Card
+          url="#"
+          header="Portifólio"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          tag1="HTML"
+          tag2="CSS"
+          tag3="JS"
+          tag4="React"
+        />
+        <Card
+          url="#"
+          header="Portifólio"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          tag1="HTML"
+          tag2="CSS"
+          tag3="JS"
+          tag4="React"
+        />
+        <Card
+          url="#"
+          header="Portifólio"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          tag1="HTML"
+          tag2="CSS"
+          tag3="JS"
+          tag4="React"
+        />
+        <Card
+          url="#"
+          header="Portifólio"
+          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
+          tag1="HTML"
+          tag2="CSS"
+          tag3="JS"
+          tag4="React"
+        />
 
-        <Card
-          url="#"
-          header="Portifólio"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-          tag1="HTML"
-          tag2="CSS"
-          tag3="JS"
-          tag4="React"
-        />
-        <Card
-          url="#"
-          header="Portifólio"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-          tag1="HTML"
-          tag2="CSS"
-          tag3="JS"
-          tag4="React"
-        />
-        <Card
-          url="#"
-          header="Portifólio"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-          tag1="HTML"
-          tag2="CSS"
-          tag3="JS"
-          tag4="React"
-        />
-        <Card
-          url="#"
-          header="Portifólio"
-          desc="Lorem ipsum dolor sit amet consectetur adipisicing elit."
-          tag1="HTML"
-          tag2="CSS"
-          tag3="JS"
-          tag4="React"
-        />
+        {/* {!githubData ? (
+          <div>Carregando...</div>
+        ) : (
+          <>
+            {githubData.map((item) => (
+              <Card key={item.id} {...item} />
+            ))}
+          </>
+        )} */}
       </styled.Content>
     </styled.Container>
   );
 }
 
 function Card(props) {
+  // const Topics = props.topics;
+
   return (
     <styled.Cards>
       <styled.Header>
@@ -82,6 +99,24 @@ function Card(props) {
         </h5>
       </styled.Footer>
     </styled.Cards>
+
+    // <styled.Cards>
+    //   <styled.Header>
+    //     <h1>
+    //       <styled.Link href={props.html_url}>{props.name}</styled.Link>
+    //     </h1>
+    //   </styled.Header>
+    //   <styled.Summary>
+    //     <h3>{props.description}</h3>
+    //   </styled.Summary>
+    //   <styled.Footer>
+    //     <h5>
+    //       {Topics.map((item, index) => (
+    //         <styled.Tags key={index}>{item}</styled.Tags>
+    //       ))}
+    //     </h5>
+    //   </styled.Footer>
+    // </styled.Cards>
   );
 }
 

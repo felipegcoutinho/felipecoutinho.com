@@ -63,7 +63,7 @@ export const Cards = styled.div`
 
   @media ${device.mobileS_320px} {
     margin-bottom: 15px;
-    padding: 20px;
+    padding: 10px;
   }
 
   @media ${device.tablet_768px} {
@@ -81,7 +81,7 @@ export const Header = styled.header`
 
 export const Summary = styled.summary`
   @media ${device.mobileS_320px} {
-    font-size: 1.3rem;
+    font-size: 1rem;
     text-align: center;
   }
 `;
@@ -93,8 +93,6 @@ export const Footer = styled.footer`
 `;
 
 export const Tags = styled.span`
-  border: 2px solid #465c7a;
-  border-radius: 5px;
-  margin-left: 3px;
-  padding: 1px 10px;
+  padding: 5px;
+  font-weight: 700;
 `;
